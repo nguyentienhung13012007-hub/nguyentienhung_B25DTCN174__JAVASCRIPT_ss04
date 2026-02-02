@@ -3,7 +3,7 @@ let Fizz=0;
 for(let i=1;i<=50;i++){
     if(i%3==0){
         console.log(`${i} là  :Fizz`);
-        Fizz++;
+        Fizz+=i;
     }else if(i%5==0){
         console.log(`${i} là  :Buzz`);
         
